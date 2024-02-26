@@ -17,7 +17,7 @@ export default function Button({ setShot }) {
                 setShot(false);
             }
         }
-    }, [waiting, count]);
+    }, [waiting, count, setShot]);
 
     const start = () => {
         setShot(true);
