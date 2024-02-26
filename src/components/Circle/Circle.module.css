@@ -29,15 +29,12 @@
     }
 }
 
-/* .moving {
-    animation: move 2s forwards;
-} */
+.shot {
+    animation: shotToBlock 2s forwards;
+}
 
-/* @keyframes move {
-    0% {
-        transform: translateX(0) translateY(0);
+@keyframes shotToBlock {
+    to {
+        transform: translateX(100) translateY(150px);
     }
-    100% {
-        transform: translateX(200px) translateY(150px);
-    }
-} */
+}
