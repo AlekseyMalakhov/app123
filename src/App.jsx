@@ -5,13 +5,14 @@ import Circle from "./components/Circle/Circle";
 
 function App() {
     const [shot, setShot] = useState(false);
+    const [coords, setCoords] = useState(null);
 
     return (
         <main>
             <div className="field">
-                <Block moving={true} />
+                <Block moving={true} setCoords={setCoords} />
                 <Block moving={false} />
-                <Circle shot={shot} />
+                <Circle coords={coords} shot={shot} />
             </div>
             <Button shot={shot} setShot={setShot} />
         </main>
