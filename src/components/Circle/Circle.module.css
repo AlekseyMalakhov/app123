@@ -14,3 +14,25 @@
 .shot {
     left: calc(100% - 125px);
 }
+
+.moving {
+    /* animation: move 5s linear infinite; */
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: -100px;
+    }
+    50% {
+        top: 0px;
+    }
+    75% {
+        top: 100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
