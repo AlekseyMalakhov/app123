@@ -12,3 +12,25 @@
     font-size: 30px;
     color: white;
 }
+
+.moving {
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

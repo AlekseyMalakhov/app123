@@ -6,9 +6,9 @@ function App() {
     return (
         <main>
             <div className="field">
-                <Block />
+                <Block moving={true} />
                 <Circle />
-                <Block />
+                <Block moving={false} />
             </div>
             <Button />
         </main>
