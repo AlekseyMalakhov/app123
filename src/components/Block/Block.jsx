@@ -1,8 +1,7 @@
 import { useEffect, useRef } from "react";
-import Circle from "../Circle/Circle";
 import classes from "./Block.module.css";
 
-export default function Block({ moving, setCoords }) {
+export default function Block({ moving, setCoords, number }) {
     const element = useRef(null);
 
     useEffect(() => {
@@ -21,7 +20,7 @@ export default function Block({ moving, setCoords }) {
 
     return (
         <div className={`${classes.block} ${moving ? classes.moving : ""}`} ref={element}>
-            <div className={classes.number}>1</div>
+            <div className={classes.number}>{number}</div>
         </div>
     );
 }
