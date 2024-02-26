@@ -7,7 +7,7 @@ function App() {
         <main>
             <div className="field">
                 <Block moving={true} />
-                <Circle />
+                {/* <Circle /> */}
                 <Block moving={false} />
             </div>
             <Button />

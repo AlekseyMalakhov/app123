@@ -1,6 +1,20 @@
 .circle {
+    position: absolute;
     width: 50px;
     height: 50px;
     border-radius: 25px;
     background-color: yellow;
+}
+
+.moving {
+    animation: move 2s forwards;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(200px) translateY(150px);
+    }
 }
