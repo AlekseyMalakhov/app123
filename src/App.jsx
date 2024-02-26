@@ -7,11 +7,10 @@ function App() {
         <main>
             <div className="field">
                 <Block />
+                <Circle />
                 <Block />
             </div>
-            {/* <Block />
             <Button />
-            <Circle /> */}
         </main>
     );
 }
