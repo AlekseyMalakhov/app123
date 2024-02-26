@@ -1,40 +1,16 @@
 .circle {
     position: absolute;
-    left: 75px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
     background-color: yellow;
+    transition: all 2s;
 }
 
-.moving {
-    animation: move 5s linear infinite;
-}
-
-@keyframes move {
-    0% {
-        transform: translateY(0);
-    }
-    25% {
-        transform: translateY(-100px);
-    }
-    50% {
-        transform: translateY(0);
-    }
-    75% {
-        transform: translateY(100px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+.init {
+    left: 75px;
 }
 
 .shot {
-    animation: shotToBlock 2s forwards;
-}
-
-@keyframes shotToBlock {
-    to {
-        transform: translateX(100) translateY(150px);
-    }
+    left: calc(100% - 125px);
 }

@@ -10,8 +10,8 @@ function App() {
         <main>
             <div className="field">
                 <Block moving={true} />
-                <Circle shot={shot} />
                 <Block moving={false} />
+                <Circle shot={shot} />
             </div>
             <Button shot={shot} setShot={setShot} />
         </main>
