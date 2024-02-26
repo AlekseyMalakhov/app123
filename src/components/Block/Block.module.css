@@ -1,0 +1,10 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(107, 231, 215);
+}
+
+.number {
+    font-size: 30px;
+    color: white;
+}

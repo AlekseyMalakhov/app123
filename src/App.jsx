@@ -1,5 +1,11 @@
+import Block from "./components/Block/Block";
+
 function App() {
-    return <main>Hi all</main>;
+    return (
+        <main>
+            <Block />
+        </main>
+    );
 }
 
 export default App;
