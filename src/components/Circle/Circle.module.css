@@ -6,7 +6,6 @@
     background-color: yellow;
     transition: all 2s;
     left: 75px;
-    top: 100px;
 }
 
 .shot {
@@ -15,23 +14,23 @@
 }
 
 .moving {
-    /* animation: move 5s linear infinite; */
+    animation: move 5s linear infinite;
 }
 
 @keyframes move {
     0% {
-        top: 0px;
+        transform: translateY(0);
     }
     25% {
-        top: -100px;
+        transform: translateY(-100px);
     }
     50% {
-        top: 0px;
+        transform: translateY(0);
     }
     75% {
-        top: 100px;
+        transform: translateY(100px);
     }
     100% {
-        top: 0px;
+        transform: translateY(0);
     }
 }
