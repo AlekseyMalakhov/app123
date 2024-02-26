@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body,
+#root {
+    display: flex;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex: 1 1 100%;
+}
+.field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

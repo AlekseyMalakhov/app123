@@ -5,9 +5,13 @@ import Circle from "./components/Circle/Circle";
 function App() {
     return (
         <main>
-            <Block />
+            <div className="field">
+                <Block />
+                <Block />
+            </div>
+            {/* <Block />
             <Button />
-            <Circle />
+            <Circle /> */}
         </main>
     );
 }
