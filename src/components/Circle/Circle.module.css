@@ -5,14 +5,13 @@
     border-radius: 25px;
     background-color: yellow;
     transition: all 2s;
-}
-
-.init {
     left: 75px;
+    top: 100px;
 }
 
 .shot {
     left: calc(100% - 125px);
+    top: calc(50% - 25px);
 }
 
 .moving {
